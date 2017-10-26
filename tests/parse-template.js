@@ -15,9 +15,4 @@ describe('parseTemplate', () => {
         });
     });
 
-    it('should parse templates with comments inside', done => {
-        parseTempatePartial('<div></div>', '<!-- nice comment -->')
-            .then(() => done())
-            .catch(done);
-    });
 });
